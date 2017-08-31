@@ -1,0 +1,197 @@
+[
+   {
+      "hid" : {
+         "path" : "/dev/hidraw3",
+         "vendor_id" : 4292,
+         "usage_page" : 65280,
+         "input_report_length" : 64,
+         "usage" : 1,
+         "product" : "ASL IntelliDose",
+         "serial_number" : "ASLID06030112",
+         "output_report_length" : 0,
+         "manufacturer" : "ASL",
+         "product_id" : 33298,
+         "version_number" : 0
+      },
+      "type" : "idoze",
+      "shadow" : {
+         "state" : {
+            "reported" : {
+               "metrics" : {
+                  "pH" : 32768,
+                  "ec" : 32768,
+                  "nut_temp" : 32768
+               },
+               "connected" : true,
+               "device" : "ASLID06030112",
+               "source" : "Gateway",
+               "status" : {
+                  "set_points" : {
+                     "ph" : 5.8,
+                     "nutrient_night" : 150,
+                     "ph_dosing" : "lower",
+                     "nutrient" : 100
+                  },
+                  "general" : {
+                     "mix_3" : 30,
+                     "irrigation_interval_4" : {
+                        "night" : 0,
+                        "every" : 0,
+                        "day" : 0
+                     },
+                     "water_on_time" : 20,
+                     "max_ph_dose_time" : 6,
+                     "irrigation_duration_4" : 0,
+                     "mix_1" : 50,
+                     "mix_6" : 100,
+                     "irrigation_interval_3" : {
+                        "day" : 0,
+                        "every" : 0,
+                        "night" : 0
+                     },
+                     "mix_5" : 100,
+                     "mix_4" : 100,
+                     "mix_2" : 100,
+                     "ph_dose_time" : 3,
+                     "mix_8" : 100,
+                     "irrigation_duration_1" : 180,
+                     "mix_7" : 100,
+                     "irrigation_interval_1" : {
+                        "night" : 40,
+                        "every" : 840,
+                        "day" : 20
+                     },
+                     "nutrient_dose_time" : 4,
+                     "dose_interval" : 1,
+                     "irrigation_interval_2" : {
+                        "every" : 0,
+                        "night" : 0,
+                        "day" : 0
+                     },
+                     "irrigation_duration_2" : 0,
+                     "max_nutrient_dose_time" : 10,
+                     "irrigation_duration_3" : 0
+                  },
+                  "units" : {
+                     "temperature" : "",
+                     "ec" : "",
+                     "date_format" : "",
+                     "tds_conversation_standart" : 0
+                  },
+                  "nutrient" : {
+                     "ph" : {
+                        "max" : 7,
+                        "enabled" : false,
+                        "min" : 4.5
+                     },
+                     "nut_temp" : {
+                        "max" : 32,
+                        "enabled" : false,
+                        "min" : 8
+                     },
+                     "ec" : {
+                        "max" : 300,
+                        "enabled" : false,
+                        "min" : 50
+                     },
+                     "detent" : 0
+                  },
+                  "status" : [
+                     {
+                        "enabled" : true,
+                        "active" : false,
+                        "force_on" : false,
+                        "function" : "Nutrient Dosing"
+                     },
+                     {
+                        "active" : false,
+                        "enabled" : true,
+                        "function" : "ph",
+                        "force_on" : false
+                     },
+                     {
+                        "active" : false,
+                        "enabled" : false,
+                        "function" : "irrigation",
+                        "force_on" : false
+                     },
+                     {
+                        "active" : false,
+                        "enabled" : false,
+                        "force_on" : false,
+                        "function" : "Irrigation Station 1"
+                     },
+                     {
+                        "function" : "Irrigation Station 2",
+                        "force_on" : false,
+                        "enabled" : false,
+                        "active" : false
+                     },
+                     {
+                        "active" : false,
+                        "enabled" : false,
+                        "force_on" : false,
+                        "function" : "Irrigation Station 3"
+                     },
+                     {
+                        "force_on" : false,
+                        "function" : "Irrigation Station 4",
+                        "active" : false,
+                        "enabled" : false
+                     },
+                     {
+                        "active" : false,
+                        "enabled" : false,
+                        "function" : "Water",
+                        "force_on" : false
+                     }
+                  ]
+               },
+               "config" : {
+                  "units" : {
+                     "tds_conversation_standart" : 500,
+                     "date_format" : "MM/DD/YY",
+                     "ec" : "EC",
+                     "temperature" : "F"
+                  },
+                  "general" : {
+                     "firmware" : 2.13,
+                     "device_name" : "IDose\u0000\u0000\u0000\u0000\u0000"
+                  },
+                  "advanced" : {
+                     "sequential_dosing" : true,
+                     "disable_ec" : false,
+                     "mntn_reminder_freq" : "weekly",
+                     "proportinal_dosing" : false,
+                     "disable_ph" : false
+                  },
+                  "functions" : {
+                     "use_water" : false,
+                     "ph_dosing" : "lower",
+                     "irrigation_mode" : "single",
+                     "irrigation_station_1" : "day_night",
+                     "irrigation_station_3" : "day_night",
+                     "irrigation_station_4" : "day_night",
+                     "scheduling" : false,
+                     "irrigation_station_2" : "day_night",
+                     "mute_buzzer" : true,
+                     "irrigation_stations" : 0,
+                     "external_alarm" : false,
+                     "separate_pump_output" : false,
+                     "day_night_ec" : false,
+                     "nutrients_parts" : 4
+                  },
+                  "times" : {
+                     "day_start" : 360,
+                     "day_end" : 1080
+                  }
+               },
+               "timestamp" : 1504147978
+            }
+         }
+      },
+      "name" : "",
+      "serial" : "ASLID06030112",
+      "is_open" : true
+   }
+]
