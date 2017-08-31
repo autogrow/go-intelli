@@ -1,5 +1,7 @@
 # go-intelli
 
+[![GoDoc](https://godoc.org/github.com/AutogrowSystems/go-intelli?status.svg)](https://godoc.org/github.com/AutogrowSystems/go-intelli)
+
 A NATS and REST gateway for the Intelli range of devices.  This allows hackers and tinkerers to do cool stuff
 with IntelliDose or IntelliClimate devices connected via USB.  Update events can be subscribed to via NATS or
 read via the HTTP API.
