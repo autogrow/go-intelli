@@ -27,7 +27,7 @@ To use it, simply run the binary (as sudo to get access to the USB files):
 
     sudo ./intellid
 
-If you have a NATS server running you will see JSON being published to the subject `intelli.*` or `intelli.ASLID06030112` every 15 seconds.  The JSON output is the same as available in the endpoint as shown below.
+If you have a NATS server running you will see JSON being published to the subject `intelli.*` or `intelli.ASLID06030112` every 15 seconds.  The JSON is formatted like so: [example.json](https://github.com/AutogrowSystems/go-intelli/blob/master/example.json)
 
 You also have two endpoints available, `/devices/count` and `/devices`.  By calling the latter you will see output like in the file
 [example.json](https://github.com/AutogrowSystems/go-intelli/blob/master/example.json)
