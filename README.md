@@ -4,7 +4,7 @@ A NATS and REST gateway for the Intelli range of devices.  This allows hackers a
 with IntelliDose or IntelliClimate devices connected via USB.  Update events can be subscribed to via NATS or
 read via the HTTP API.
 
-Current support is limited to Linux and [exprimentally] MAC.
+Current support is limited to Linux and [experimentally] MAC.
 
 This can be coupled with the [Jelly SDK](https://github.com/AutogrowSystems/go-jelly) to get programmatical access
 to an IntelliDose.
